@@ -1,0 +1,38 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+.cidadePesquisada{
+  display: flex;
+  font-size: 30px;
+  height: 100%;
+  justify-content: center;
+  background-color: crimson;
+  width: 100%;
+}
+
+.search{
+  background-color: cadetblue;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 10rem;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.search h2{
+  color: aliceblue;
+  text-shadow: 3px 3px 3px black;
+  font-size: xx-large;
+}
+
+.search input[type=text]{
+  width: 80%;
+  height: 3rem;
+  padding-left: 15px;
+}
